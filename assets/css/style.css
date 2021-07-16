@@ -89,7 +89,7 @@ h3 {
     border-radius: 10px;
 }
 
-@media (max-width: 760px) {
+@media screen and (max-width: 760px) {
     nav {
         width: 100%;
     }
@@ -170,7 +170,63 @@ h3 {
 
 /* my reward chart */
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 10px solid #82D173;
+}
 
+table tr:nth-of-type(even) { 
+    background: #eee; 
+}
+
+table th { 
+    background: #3E6165; 
+    color: white; 
+    font-weight: bold; 
+}
+  
+table th, 
+table td { 
+    padding: 1rem; 
+    border: 1px solid #ccc; 
+    text-align: center; 
+}
+
+@media screen and (max-width: 760px) {
+    .reward-chart-table thead {
+        display: none;
+    }
+
+    .reward-chart-table tr,
+    .reward-chart-table td {
+        display: block;
+    }
+
+    .reward-chart-table tr:not(last-child) {
+        border-bottom: 5px solid #ccc;
+    }
+
+    .reward-chart-table td {
+        padding-left: 54%;
+        position: relative;
+    
+    }
+
+    .reward-chart-table td::before {
+        position: absolute;
+        padding: 5px;
+        padding-top: 16px;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 50%;
+        content: attr(data-col-title);
+        background: #3E6165; 
+        color: white; 
+        font-weight: bold;
+    }
+}
 
 /* page links */
 
