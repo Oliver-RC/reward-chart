@@ -118,7 +118,7 @@ A deployed link to the website can be found [here](x)
   - Images used across the site taken from Unsplash [here](https://unsplash.com/). Specfic images used are:
    - 
  ### Additional Resource
-  - 
+  - Web Dev Simplified - Responsive Navbar Tutorial (YouTube)
 
  ### Acknowledgements
   - Brian Macharia - Mentor support. A thank you for your guidance throughout the project.
