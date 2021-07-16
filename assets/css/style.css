@@ -230,7 +230,30 @@ table td {
 
 /* page links */
 
+.booster-button,
+.reward-button {
+    display: block;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
+.booster-button:hover,
+.reward-button:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.booster-button {
+    background-color: #6610F2;
+}
+
+.reward-button {
+    background-color: #ED7E07;
+}
 
 /*Footer*/
 
