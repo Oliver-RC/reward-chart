@@ -202,7 +202,6 @@ h3 {
     width: 35px;
     opacity: 0;
     cursor: pointer;
-
 }
 
 table {
@@ -245,7 +244,6 @@ table td {
     .reward-chart-table td {
         padding-left: 54%;
         position: relative;
-    
     }
 
     .reward-chart-table td::before {

@@ -48,20 +48,19 @@
 
     <section>
         <div class="task-container">
-            <h2>
-                My Task
-            </h2>
-            <input type="text" id="task-name" name="task-name" placeholder="Task..." required>
-            <br>
-            <input type="submit" id="task-add" value="Add">
+                <h2>My Task</h2>
+                <input type="text" id="task-name" name="task-name" placeholder="Task...">
+                <br>
+                <!--<input type="submit" id="task-add" value="Add">-->
+                <button onclick="addHtmlTableRow();">Add</button>
+                <button>Edit</button>
+                <button>Remove</button>
         </div>
 
         <div class="stars-container">
-            <h2>
-                My Stars
-            </h2>
+            <h2>My Stars</h2>
             <p>
-                Stars Achieved = <span class="star-total">123</span>
+                Stars Achieved = <span id="count">0</span>
             </p>
             <div>
                 <i class="fas fa-star"></i>
@@ -72,7 +71,7 @@
     <!--my reward chart-->
 
     <section>
-        <table class="reward-chart-table">
+        <table id="table" class="reward-chart-table">
             <thead>
                 <tr>
                     <th>Task</th>
@@ -85,8 +84,8 @@
                     <th>Sunday</th>
                 </tr>                
             </thead>
-            <tbody>
-                <tr>
+            <tbody id="checkboxes" onchange='update()'>
+                <tr class="new-task">
                     <td data-col-title="Task">Task 1</td>
                     <td data-col-title="Monday">
                         <div class="star-box">

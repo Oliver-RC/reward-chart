@@ -120,6 +120,7 @@ A deployed link to the website can be found [here](x)
  ### Additional Resource
   - Web Dev Simplified - Responsive Navbar Tutorial (YouTube)
   - IB-Media - Making a Responsive Table Using HTML & CSS (YouTube)
+  - CSS-Tricks - https://css-tricks.com/the-checkbox-hack/
 
  ### Acknowledgements
   - Brian Macharia - Mentor support. A thank you for your guidance throughout the project.
