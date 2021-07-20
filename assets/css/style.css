@@ -2,6 +2,8 @@
 
 :root {
     --background: #82D173;
+    --cell-size: 100px;
+    --mark-size: calc(var(--cell-size) * 0.9);
 }
 
 * {
@@ -308,4 +310,67 @@ footer {
     font-size: 2rem;
     margin: 2% 5%;
     color: black;
+}
+
+/*Star Booster Game*/
+
+.star-game-container {
+    padding: 1rem;
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    top: 50%;
+    left: 50%;
+    border: 5px solid #82D173;
+    text-align: center;
+}
+
+.scores {
+    margin-bottom: 4rem;
+}
+
+.weapons {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.weapons button {
+    background-color: var(--background);
+    border: none;
+    border-radius: 50%;
+    font-size: 4rem;
+    height: 6rem;
+    width: 6rem;
+    cursor: pointer;
+    margin: 0 0.5rem;
+}
+
+.weapons button:hover {
+    background-color: white;
+    color: var(--background);
+    border: 5px solid #82D173;
+}
+
+.details {
+    margin-top: 4rem;
+}
+
+.scores,
+.details {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#result {
+    width: 180px;
+    padding: 10px 0;
+    margin: 30px auto;
+    letter-spacing: 0.5px;
+}
+
+#user-choice,
+#computer-choice {
+    margin-bottom: 10px;
 }
