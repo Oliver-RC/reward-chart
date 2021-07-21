@@ -121,6 +121,7 @@ A deployed link to the website can be found [here](x)
   - Web Dev Simplified - Responsive Navbar Tutorial (YouTube)
   - IB-Media - Making a Responsive Table Using HTML & CSS (YouTube)
   - CSS-Tricks - https://css-tricks.com/the-checkbox-hack/
+  - Code with Ania Kubow - 3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)
 
  ### Acknowledgements
   - Brian Macharia - Mentor support. A thank you for your guidance throughout the project.
