@@ -39,6 +39,8 @@ h3 {
 .title {
     margin: 0.5rem 4rem 0.5rem 0.5rem;
     font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
 }
 
 .title i {
@@ -360,12 +362,8 @@ footer {
 
 .details {
     margin-top: 4rem;
-}
-
-.scores,
-.details {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.2rem;    
 }
 
 #result {
@@ -378,4 +376,26 @@ footer {
 #user-choice,
 #computer-choice {
     margin-bottom: 10px;
+}
+
+/*Final Star Total*/
+
+.final-stars-container {
+    padding: 1rem 0.5rem;
+    background-color: silver;
+    background-image: linear-gradient(to bottom right, silver, white);
+    text-align: center;
+    border: 5px solid #3E6165;
+    margin: 5px;
+}
+
+.final-stars-container p {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.final-stars-container i {
+    font-size: 3rem;
 }
