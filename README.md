@@ -116,7 +116,11 @@ A deployed link to the website can be found [here](x)
   - The Favicon was created from Favicon.io [here](https://favicon.io/favicon-generator/)
   - Icons included within the content of the size used from Font Awesome [here](https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free)
   - Images used across the site taken from Unsplash [here](https://unsplash.com/). Specfic images used are:
-   - 
+   - A Sweet Treat Photo by <a href="https://unsplash.com/@anitabagg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Analia Baggiano</a> on <a href="https://unsplash.com/s/photos/sweets?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   - Extra Time on Tablet Photo by <a href="https://unsplash.com/@souzouforest?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">José Reyes</a> on <a href="https://unsplash.com/s/photos/tablet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   - A New Magazine Photo by <a href="https://unsplash.com/@__itsflores?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Omar Flores</a> on <a href="https://unsplash.com/s/photos/kids-book?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   - A New Toy Photo by <a href="https://unsplash.com/@robowunderkind?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robo Wunderkind</a> on <a href="https://unsplash.com/s/photos/childrens-toys?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
  ### Additional Resource
   - Web Dev Simplified - Responsive Navbar Tutorial (YouTube)
   - IB-Media - Making a Responsive Table Using HTML & CSS (YouTube)

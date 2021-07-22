@@ -268,7 +268,9 @@ table td {
 /* page links */
 
 .booster-button,
-.reward-button {
+.reward-button,
+.claim-reward,
+.reset {
     display: block;
     color: white;
     text-align: center;
@@ -280,7 +282,8 @@ table td {
 }
 
 .booster-button:hover,
-.reward-button:hover {
+.reward-button:hover,
+.reset:hover {
     text-decoration: underline;
     font-weight: bold;
 }
@@ -415,6 +418,54 @@ footer {
 
 .final-stars-container i {
     font-size: 3rem;
+}
+
+/*Reward Page*/
+
+.reward-choice {
+    padding: 1rem 0.5rem;
+    text-align: center;
+    border: 5px solid #3E6165;
+    margin: 5px;
+    background-color: #f2f2f2;
+}
+
+.reward-choice img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(248, 213, 15);
+    border-radius: 50%;
+}
+
+.reward-choice p {
+    font-weight: 800;
+    font-size: 1.2rem;
+    padding: 0.2rem;
+}
+
+.reward-choice i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.reward-choice i:hover {
+    color: silver;
+}
+
+.claim-reward {
+    color: black;
+    background-color: var(--background);
+    width: 200px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.claim-reward:hover {
+    background-color: rgb(248, 213, 15);
+}
+
+.reset {
+    background-color: #6d213c;
 }
 
 /*Feedback Form*/

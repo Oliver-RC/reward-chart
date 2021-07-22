@@ -13,7 +13,7 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>My Reward Chart | Feedback</title>
+    <title>My Reward Chart | Reward</title>
 </head>
 <body>
 
@@ -44,27 +44,51 @@
         </nav>            
     </header>
 
-    <!--feedback form-->
+    <!--final stars-->
 
     <section>
-        <div class="feedback-container">
-            <h2 class="feedback-title">My Reward Chart Feedback Form</h2>
-            <h3 class="feedback-outline">It would be great to get your feedback on the site, please complete your details below</h3>
-            <form action="https://formdump.codeinstitute.net/" method="POST" name="feedback-form" class="feedback-form">
-                <label for="fname">First Name:</label> 
-                <input type="text" id="fname" name="fname" placeholder="Your name..." required>
-                <br>
-                <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="lname" placeholder="Your last name..."required>
-                <br>
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" placeholder="Your email..."required>
-                <br>
-                <label for="feedback">Feedback:</label>
-                <textarea id="feedback" name="feedback" placeholder="Please comment feedback here..."></textarea>
-                <br>
-                <input type="submit" value="Send Feedback" class="feedback-btn">
-            </form>
+        <div class="final-stars-container">
+            <h2>Total Reward Stars</h2>
+            <p>
+                Total Stars = <span id="final-stars">0</span>
+            </p>
+            <div>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </section>
+
+    <!--reward choices--> 
+
+    <section>
+        <div class="reward-container">
+            <div class="reward-choice">
+                <img src="assets/images/site-images/sweet-treat.jpg" alt="plates of sweets">
+                <p>A Sweet Treat</p>
+                <p>1<i class="fas fa-star"></i></p>
+                <p class="claim-reward">Claim Reward</p>
+            </div>
+            <div class="reward-choice">
+                <img src="assets/images/site-images/tablet.jpg" alt="a gameboy switch tablet">
+                <p>Extra Time on Tablet</p>
+                <p>5<i class="fas fa-star"></i>'s</p>
+                <p class="claim-reward">Claim Reward</p>
+            </div>
+            <div class="reward-choice">
+                <img src="assets/images/site-images/magazine.jpg" alt="a bookcase full of magazines">
+                <p>A New Magazine</p>
+                <p>15<i class="fas fa-star"></i>'s</p>
+                <p class="claim-reward">Claim Reward</p>
+            </div>
+            <div class="reward-choice">
+                <img src="assets/images/site-images/toy.jpg" alt="a toy robot">
+                <p>A New Toy</p>
+                <p>30<i class="fas fa-star"></i>'s</p>
+                <p class="claim-reward">Claim Reward</p>
+            </div>      
+        </div>
+        <div>
+            <p class="reset">End of the week<br>reset</p>                 
         </div>
     </section>
 
