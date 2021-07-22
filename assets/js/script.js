@@ -14,6 +14,31 @@ toggleButton.addEventListener('click', () => {
  */
 function newTask() {
     let table = document.getElementById('table');
+    let task = document.getElementById('task-name').value;
+    let star = document.getElementById('star-div').innerHTML;
+    let newRow = table.insertRow(1);
+    let cell1 = newRow.insertCell(0);
+    let cell2 = newRow.insertCell(1);
+    let cell3 = newRow.insertCell(2);
+    let cell4 = newRow.insertCell(3);
+    let cell5 = newRow.insertCell(4);
+    let cell6 = newRow.insertCell(5);
+    let cell7 = newRow.insertCell(6);
+    let cell8 = newRow.insertCell(7);
+
+    cell1.innerHTML = task;
+    cell2.innerHTML = star;
+    cell3.innerHTML = star;
+    cell4.innerHTML = star;
+    cell5.innerHTML = star;
+    cell6.innerHTML = star;
+    cell7.innerHTML = star;
+    cell8.innerHTML = star;
+}
+
+/*
+function newTask() {
+    let table = document.getElementById('table');
     let row = table.insertRow(1);
     let cell1 = row.insertCell(0);
     let cell2 = row.insertCell(1);
@@ -25,7 +50,7 @@ function newTask() {
     let cell8 = row.insertCell(7);
 
     cell1.innerHTML = task;
-}
+}*/
 
 
  /**
