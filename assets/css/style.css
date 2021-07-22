@@ -325,6 +325,15 @@ footer {
     color: white;
 }
 
+.game-type {
+    margin-bottom: 4rem;
+}
+
+.instructions {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .star-game-container {
     padding: 1rem;
     margin: auto;
