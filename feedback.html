@@ -13,7 +13,7 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>My Reward Chart | Star Booster Game</title>
+    <title>My Reward Chart | Feedback</title>
 </head>
 <body>
 
@@ -44,66 +44,28 @@
         </nav>            
     </header>
 
-    <!--my task and my stars-->
+    <!--feedback form-->
 
     <section>
-        <div class="stars-container">
-            <h2>Reward Chart Stars</h2>
-            <p>
-                Stars Achieved = <span id="count">0</span>
-            </p>
-            <div>
-                <i class="fas fa-star"></i>
-            </div>
+        <div class="feedback-container">
+            <h2 class="feedback-title">My Reward Chart Feedback Form</h2>
+            <h3 class="feedback-outline">It would be great to get your feedback on the site, please complete your details below</h3>
+            <form action="https://formdump.codeinstitute.net/" method="POST" name="feedback-form" class="feedback-form">
+                <label for="fname">First Name:</label> 
+                <input type="text" id="fname" name="fname" placeholder="Your name..." required>
+                <br>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Your last name..."required>
+                <br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Your email..."required>
+                <br>
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" placeholder="Please comment feedback here..."></textarea>
+                <br>
+                <input type="submit" value="Send Feedback" class="feedback-btn">
+            </form>
         </div>
-
-        <div class="game-score">
-            <h2>My Game Score</h2>
-            <div class="scores">
-                <p>You: <span id="user-score">0</span></p>
-                <p>Computer: <span id="computer-score">0</span></p>
-                <p>Stars Earned: <span id="stars-added">0</span> <i class="fas fa-star"></i></p>
-            </div>            
-        </div>
-
-    </section>
-
-    <!--star booster game-->
-
-    <section>
-        <div class="star-game-container">
-            <div class="game-type">
-                <h2>Rock, Paper, Scissors Game</h2>
-                <h3 class="instructions"><span onclick="instructions()">Click for Instructions</span></h3>
-            </div>
-            <div class="weapons">
-                <button id="rock">👊</button>
-                <button id="paper">✋</button>
-                <button id="scissors">✌</button>
-            </div>
-
-            <div class="details">
-                <p>Computer Choice: <span id="computer-choice"></span></p>
-                <p>Your Choice: <span id="user-choice"></span></p>
-                <p>Result: <span id="result"></span></p>
-            </div>
-        </div>
-    </section>
-
-    <!--final stars and reward links-->
-
-    <section>
-        <div class="final-stars-container">
-            <h2>Total Reward Stars</h2>
-            <p>
-                Total Stars = <span id="final-stars">0</span>
-            </p>
-            <div>
-                <i class="fas fa-star"></i>
-            </div>
-        </div>
-
-        <a href="x"class="reward-button">My Reward</a>
     </section>
 
     <!--footer-->

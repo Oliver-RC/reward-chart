@@ -325,6 +325,14 @@ footer {
     color: white;
 }
 
+.game-score h2 {
+    margin-bottom: 1rem;
+}
+
+.game-score p {
+    font-size: 1.2rem;
+}
+
 .game-type {
     margin-bottom: 4rem;
 }
@@ -407,4 +415,46 @@ footer {
 
 .final-stars-container i {
     font-size: 3rem;
+}
+
+/*Feedback Form*/
+
+.feedback-container h2,
+.feedback-container h3 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.feedback-form {
+    max-width: 80%;
+    margin: 2rem auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    line-height: 30px;
+}
+
+.feedback-form textarea {
+    height: 10rem;
+}
+
+.feedback-btn {
+    background-color: var(--background);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.feedback-btn:hover {
+    background-color: black;
+    color: white;
 }
