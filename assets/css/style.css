@@ -14,6 +14,9 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
 }
 
 h1,
@@ -34,6 +37,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     background: var(--background);
+    margin-bottom: 2rem;
 }
 
 .title {
@@ -93,7 +97,7 @@ h3 {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 767px) {
     nav {
         width: 100%;
     }
@@ -210,6 +214,8 @@ h3 {
 
 table {
     width: 100%;
+    margin: 2rem auto;
+    table-layout: fixed;
     border-collapse: collapse;
     border: 5px solid #82D173;
 }
@@ -231,7 +237,7 @@ table td {
     text-align: center; 
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 767px) {
     .reward-chart-table thead {
         display: none;
     }
@@ -262,6 +268,18 @@ table td {
         background: #3E6165; 
         color: white; 
         font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .task-stars-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .task-container,
+    .stars-container, 
+    .game-score {
+    width: 50%;
     }
 }
 
@@ -296,11 +314,23 @@ table td {
     background-color: #ED7E07;
 }
 
+@media screen and (min-width: 1024px) {
+    .links {
+        display: flex;
+        flex-direction: row;
+    }
+    .booster-button, 
+    .reward-button {
+    width: 50%;
+    }
+}
+
 /*Footer*/
 
 footer {
     background: var(--background);
     width: 100%;
+    margin-top: 2rem;
 }
 
 .social-networks {
@@ -347,7 +377,7 @@ footer {
 
 .star-game-container {
     padding: 1rem;
-    margin: auto;
+    margin: 2rem auto;
     margin-left: 5px;
     margin-right: 5px;
     top: 50%;
@@ -420,6 +450,23 @@ footer {
     font-size: 3rem;
 }
 
+.reward-button-two {
+    display: block;
+    color: white;
+    text-align: center;
+    border: 5px solid #3E6165;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5px;
+    background-color: #ED7E07;
+}
+
+.reward-button-two:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 /*Reward Page*/
 
 .reward-choice {
@@ -466,6 +513,19 @@ footer {
 
 .reset {
     background-color: #6d213c;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .reward-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .reward-choice {
+        width: 25%;
+    }
 }
 
 /*Feedback Form*/
