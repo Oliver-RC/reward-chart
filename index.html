@@ -50,10 +50,12 @@
 
     <section class="task-stars-container">
         <div class="task-container">
-                <h2>My Task</h2>
-                <input type="text" id="task-name" name="task-name" placeholder="Task...">
+            <h2>My Task</h2>
+            <form action="" data-new-task-form>
+                <input type="text" id="task-name" name="task-name" placeholder="Task..." data-new-task-input>
                 <br>
-                <input type="button" id="task-add" value="Add" onclick="newTask();">
+                <input type="button" id="task-add" value="Add">                     
+            </form>
         </div>
 
         <div class="stars-container">
@@ -83,9 +85,9 @@
                     <th>Sunday</th>
                 </tr>                
             </thead>
-            <tbody id="checkboxes" onchange='update()'>
-                <tr class="new-task">
-                    <td data-col-title="Task">Task 1</td>
+            <tbody id="checkboxes" onchange='update()' data-tasks>
+                <!--<tr class="new-task">
+                    <td class="active-task" data-col-title="Task">Task 1</td>
                     <td data-col-title="Monday" id="star-div">
                         <div class="star-box">
                             <label for="star"></label>
@@ -239,7 +241,7 @@
                             <div class="control"></div>
                         </div>
                     </td>
-                </tr>
+                </tr>-->
             </tbody>
         </table>
     </section>

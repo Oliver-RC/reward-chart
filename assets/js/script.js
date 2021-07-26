@@ -8,10 +8,59 @@ toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active')
 })
 
+
+const taskContainer = document.querySelector('[data-tasks')
+const newTaskForm = document.querySelector('[data-new-task-form]')
+const newTaskInput = document.querySelector('[data-new-task-input]')
+
+const LOCAL_STORAGE_LIST_KEY = 'task.lists'
+let tasks = JSON.parse(localStorage.getItem(LOCAL_STORAGE_LIST_KEY)) || []
+
+newTaskForm.addEventListener('submit', e => {
+    e.preventDefault()
+    const taskName = newTaskInput.value
+    if (taskName == null || taskName === '') return
+    const task = createTask(taskName)
+    newTaskInput.value = null
+    tasks.push(task)
+    saveAndRender()
+})
+
+function createTask(name) {
+    return {id: Date.now().toString(), name: name}
+}
+
+function saveAndRender() {
+    save()
+    render()
+}
+
+function save() {
+    localStorage.setItem(LOCAL_STORAGE_LIST_KEY, JSON.stringify(tasks))
+}
+
+function render() {
+    clearElement(taskContainer)
+    tasks.forEach(task => {
+        const taskElement = document.createElement('tr')
+        taskElement.classList.add("new-task")
+        taskElement.innerText = task.name
+        taskContainer.appendChild(taskElement)
+    })
+}
+
+function clearElement(element) {
+    while(element.firstChild) {
+        element.removeChild(element.firstChild)
+    }
+}
+
+render()
+
 /**
  * create a new task in the reward table
  * when clicking on the 'add' button
- */
+ 
 function newTask() {
     let table = document.getElementById('table');
     let task = document.getElementById('task-name').value;
@@ -34,7 +83,7 @@ function newTask() {
     cell6.innerHTML = star;
     cell7.innerHTML = star;
     cell8.innerHTML = star;
-}
+}*/
 
  /**
  * Count the number of star icons checked
