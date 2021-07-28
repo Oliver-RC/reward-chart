@@ -8,8 +8,11 @@ toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active')
 })
 
-
-const taskContainer = document.querySelector('[data-tasks')
+/**
+ * create a new task in the reward table
+ * when clicking on the 'add' button
+ */
+const taskContainer = document.querySelector('[data-tasks]')
 const newTaskForm = document.querySelector('[data-new-task-form]')
 const newTaskInput = document.querySelector('[data-new-task-input]')
 
@@ -42,10 +45,43 @@ function save() {
 function render() {
     clearElement(taskContainer)
     tasks.forEach(task => {
-        const taskElement = document.createElement('tr')
+        let taskElement = taskContainer.insertRow(0)
+        let tableData = document.createElement('td')
+        let chkbox = document.createElement('input')
+        let div = document.createElement('div')
+        let cell1 = taskElement.insertCell(0);
+        let cell2 = taskElement.insertCell(1);
+        let cell3 = taskElement.insertCell(2);
+        let cell4 = taskElement.insertCell(3);
+        let cell5 = taskElement.insertCell(4);
+        let cell6 = taskElement.insertCell(5);
+        let cell7 = taskElement.insertCell(6);
+        let cell8 = taskElement.insertCell(7);
+
+        chkbox.type = 'checkbox'
+        chkbox.id = 'star'
+        chkbox.className = 'hidden'
+        div.className = 'control'
         taskElement.classList.add("new-task")
-        taskElement.innerText = task.name
-        taskContainer.appendChild(taskElement)
+        cell2.classList.add("star-box")
+        cell3.classList.add("star-box")
+        cell4.classList.add("star-box")
+        cell5.classList.add("star-box")
+        cell6.classList.add("star-box")
+        cell7.classList.add("star-box")
+        cell8.classList.add("star-box")
+
+        tableData.appendChild(chkbox)
+        tableData.appendChild(div)
+
+        cell1.innerHTML = task.name
+        cell2.innerHTML = tableData.innerHTML
+        cell3.innerHTML = tableData.innerHTML
+        cell4.innerHTML = tableData.innerHTML
+        cell5.innerHTML = tableData.innerHTML
+        cell6.innerHTML = tableData.innerHTML
+        cell7.innerHTML = tableData.innerHTML
+        cell8.innerHTML = tableData.innerHTML
     })
 }
 
@@ -56,34 +92,6 @@ function clearElement(element) {
 }
 
 render()
-
-/**
- * create a new task in the reward table
- * when clicking on the 'add' button
- 
-function newTask() {
-    let table = document.getElementById('table');
-    let task = document.getElementById('task-name').value;
-    let star = document.getElementById('star-div').innerHTML;
-    let newRow = table.insertRow(1);
-    let cell1 = newRow.insertCell(0);
-    let cell2 = newRow.insertCell(1);
-    let cell3 = newRow.insertCell(2);
-    let cell4 = newRow.insertCell(3);
-    let cell5 = newRow.insertCell(4);
-    let cell6 = newRow.insertCell(5);
-    let cell7 = newRow.insertCell(6);
-    let cell8 = newRow.insertCell(7);
-
-    cell1.innerHTML = task;
-    cell2.innerHTML = star;
-    cell3.innerHTML = star;
-    cell4.innerHTML = star;
-    cell5.innerHTML = star;
-    cell6.innerHTML = star;
-    cell7.innerHTML = star;
-    cell8.innerHTML = star;
-}*/
 
  /**
  * Count the number of star icons checked
@@ -96,7 +104,6 @@ function update() {
  /**
  * star game logic
  */
-
  // variables
 const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
@@ -183,3 +190,8 @@ function instructions() {
     alert('👊 Rock wins over scissors because rock smashes scissors\n✌ Scissors wins over paper because scissors cut paper\n✋ Paper wins over rock because paper covers rock')
 }
 
+/**Total Reward Stars Count */
+
+/**Claim Reward deducting stars from total */
+
+/**End of the week reset */
