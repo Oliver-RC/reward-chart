@@ -10,15 +10,17 @@ toggleButton.addEventListener('click', () => {
 
 /**
  * create a new task in the reward table
- * when clicking on the 'add' button
  */
 const taskContainer = document.querySelector('[data-tasks]')
 const newTaskForm = document.querySelector('[data-new-task-form]')
 const newTaskInput = document.querySelector('[data-new-task-input]')
+const addTaskButton = document.querySelector('[data-add-task-button]')
+const deleteTaskButton = document.querySelector('[data-delete-task-button]')
 
 const LOCAL_STORAGE_LIST_KEY = 'task.lists'
 let tasks = JSON.parse(localStorage.getItem(LOCAL_STORAGE_LIST_KEY)) || []
 
+//adds new task when 'enter' key hit
 newTaskForm.addEventListener('submit', e => {
     e.preventDefault()
     const taskName = newTaskInput.value
@@ -29,19 +31,40 @@ newTaskForm.addEventListener('submit', e => {
     saveAndRender()
 })
 
+//adds new task when 'add' button clicked
+addTaskButton.addEventListener('click', e => {
+    e.preventDefault()
+    const taskName = newTaskInput.value
+    if (taskName == null || taskName === '') return
+    const task = createTask(taskName)
+    newTaskInput.value = null
+    tasks.push(task)
+    saveAndRender()
+})
+
+/**deleteTaskButton.addEventListener('click', e => {
+    tasks = tasks.filter(task => task.id !== selectedListId)
+    selectedListId = null
+    saveAndRender()
+})*/
+
+//gives the task name a unique id for local storage use
 function createTask(name) {
     return {id: Date.now().toString(), name: name}
 }
 
+//calls the save and render function
 function saveAndRender() {
     save()
     render()
 }
 
+//saves the new task to local storage
 function save() {
     localStorage.setItem(LOCAL_STORAGE_LIST_KEY, JSON.stringify(tasks))
 }
 
+//adds table row to the table with new task inputted from the form
 function render() {
     clearElement(taskContainer)
     tasks.forEach(task => {
@@ -58,11 +81,11 @@ function render() {
         let cell7 = taskElement.insertCell(6);
         let cell8 = taskElement.insertCell(7);
 
+        taskElement.classList.add("new-task")
         chkbox.type = 'checkbox'
         chkbox.id = 'star'
         chkbox.className = 'hidden'
         div.className = 'control'
-        taskElement.classList.add("new-task")
         cell2.classList.add("star-box")
         cell3.classList.add("star-box")
         cell4.classList.add("star-box")
@@ -85,6 +108,7 @@ function render() {
     })
 }
 
+//clears the table of existing content
 function clearElement(element) {
     while(element.firstChild) {
         element.removeChild(element.firstChild)

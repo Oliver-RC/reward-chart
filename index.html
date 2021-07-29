@@ -52,9 +52,11 @@
         <div class="task-container">
             <h2>My Task</h2>
             <form action="" data-new-task-form>
-                <input type="text" id="task-name" name="task-name" placeholder="Task..." data-new-task-input>
+                <input type="text" id="task-name" name="task-name" placeholder="Task..." aria-label="task" data-new-task-input>
                 <br>
-                <input type="button" id="task-add" value="Add">                     
+                <input type="button" id="task-add" value="Add" aria-label="create new task" data-add-task-button> 
+                <br>
+                <input type="button" id="task-delete" value="Delete" aria-label="deletes selected task" data-delete-task-button>                    
             </form>
         </div>
 
