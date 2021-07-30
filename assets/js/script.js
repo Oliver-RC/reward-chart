@@ -15,10 +15,18 @@ const taskContainer = document.querySelector('[data-tasks]')
 const newTaskForm = document.querySelector('[data-new-task-form]')
 const newTaskInput = document.querySelector('[data-new-task-input]')
 const addTaskButton = document.querySelector('[data-add-task-button]')
-const deleteTaskButton = document.querySelector('[data-delete-task-button]')
 
-const LOCAL_STORAGE_LIST_KEY = 'task.lists'
+const LOCAL_STORAGE_LIST_KEY = 'task.tasks'
+const LOCAL_STORAGE_SELECTED_LIST_ID_KEY = 'task.selectedTaskId'
 let tasks = JSON.parse(localStorage.getItem(LOCAL_STORAGE_LIST_KEY)) || []
+let selectedTaskId = localStorage.getItem(LOCAL_STORAGE_SELECTED_LIST_ID_KEY)
+
+taskContainer.addEventListener('click', e => {
+    if (e.target.tagName.toLowerCase() === 'td') {
+        selectedTaskId = e.target.dataset.taskId
+        saveAndRender()
+    }
+})
 
 //adds new task when 'enter' key hit
 newTaskForm.addEventListener('submit', e => {
@@ -42,11 +50,11 @@ addTaskButton.addEventListener('click', e => {
     saveAndRender()
 })
 
-/**deleteTaskButton.addEventListener('click', e => {
-    tasks = tasks.filter(task => task.id !== selectedListId)
-    selectedListId = null
-    saveAndRender()
-})*/
+//deletes table of task when 'end of the week' button clicked
+function clearLocal() {
+    localStorage.clear()
+    window.location.reload()
+}
 
 //gives the task name a unique id for local storage use
 function createTask(name) {
@@ -81,6 +89,7 @@ function render() {
         let cell7 = taskElement.insertCell(6);
         let cell8 = taskElement.insertCell(7);
 
+        taskElement.dataset.taskId = task.id
         taskElement.classList.add("new-task")
         chkbox.type = 'checkbox'
         chkbox.id = 'star'
@@ -96,6 +105,8 @@ function render() {
 
         tableData.appendChild(chkbox)
         tableData.appendChild(div)
+
+        if (task.id === selectedTaskId) taskElement.classList.add('active-task')
 
         cell1.innerHTML = task.name
         cell2.innerHTML = tableData.innerHTML
@@ -132,14 +143,14 @@ function update() {
 const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
-const possibleChoices = document.querySelectorAll('button')
+const possibleChoices = document.getElementById('wrapper')
 let userChoice
 let computerChoice
 let result
 
 // add event listeners to clicked buttons and display user choice and result
-possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (event) => {
-    userChoice = event.target.id
+possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', e => {
+    userChoice = e.target.id
     userChoiceDisplay.innerHTML = userChoice
     generateComputerChoice()
     getResult()

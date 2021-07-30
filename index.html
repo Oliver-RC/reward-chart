@@ -51,12 +51,10 @@
     <section class="task-stars-container">
         <div class="task-container">
             <h2>My Task</h2>
-            <form action="" data-new-task-form>
+            <form action="https://formdump.codeinstitute.net/" method="POST" data-new-task-form>
                 <input type="text" id="task-name" name="task-name" placeholder="Task..." aria-label="task" data-new-task-input>
                 <br>
-                <input type="button" id="task-add" value="Add" aria-label="create new task" data-add-task-button> 
-                <br>
-                <input type="button" id="task-delete" value="Delete" aria-label="deletes selected task" data-delete-task-button>                    
+                <input type="button" id="task-add" value="Add" aria-label="create new task" data-add-task-button>                   
             </form>
         </div>
 
@@ -89,7 +87,7 @@
             </thead>
             <tbody id="checkboxes" onchange='update()' data-tasks>
                 <tr class="new-task">
-                    <td data-col-title="Task">Task 1</td>
+                    <td data-col-title="Task" class="active-task">Task 1</td>
                     <td data-col-title="Monday" id="star-div">
                         <div class="star-box">
                             <label for="star"></label>
@@ -246,6 +244,12 @@
                 </tr>
             </tbody>
         </table>
+    </section>
+
+    <section>
+        <div>
+            <p class="reset" onclick="clearLocal()">End of the week reset</p>                 
+        </div>
     </section>
 
     <!--page links-->

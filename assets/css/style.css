@@ -498,11 +498,6 @@ footer {
 
 .reward-choice i {
     font-size: 2rem;
-    cursor: pointer;
-}
-
-.reward-choice i:hover {
-    color: silver;
 }
 
 .claim-reward {
