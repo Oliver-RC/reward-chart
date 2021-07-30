@@ -239,6 +239,10 @@ table td {
 }
 
 @media screen and (max-width: 767px) {
+    .hidden {
+        width: 100%;
+    }
+    
     .reward-chart-table thead {
         display: none;
     }
