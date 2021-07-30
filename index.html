@@ -86,162 +86,61 @@
                 </tr>                
             </thead>
             <tbody id="checkboxes" onchange='update()' data-tasks>
-                <tr class="new-task">
-                    <td data-col-title="Task" class="active-task">Task 1</td>
-                    <td data-col-title="Monday" id="star-div">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Tuesday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Wednesday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Thursday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Friday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Saturday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Sunday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td data-col-title="Task">Task 2</td>
-                    <td data-col-title="Monday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Tuesday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Wednesday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Thursday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Friday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Saturday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Sunday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td data-col-title="Task">Task 3</td>
-                    <td data-col-title="Monday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Tuesday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Wednesday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Thursday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Friday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Saturday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                    <td data-col-title="Sunday">
-                        <div class="star-box">
-                            <label for="star"></label>
-                            <input type="checkbox" id="star" class="hidden">
-                            <div class="control"></div>
-                        </div>
-                    </td>
-                </tr>
+                <template>
+                    <tr class="new-task">
+                        <td data-title="Task" class="active-task">Task 1</td>
+                        <td data-title="Monday" id="star-div">
+                            <div class="star-box">
+                                <label for="star"></label>
+                                <input type="checkbox" id="star" class="hidden">
+                                <div class="control"></div>
+                            </div>
+                        </td>
+                        <td data-title="Tuesday">
+                            <div class="star-box">
+                                <label for="star"></label>
+                                <input type="checkbox" id="star" class="hidden">
+                                <div class="control"></div>
+                            </div>
+                        </td>
+                        <td data-title="Wednesday">
+                            <div class="star-box">
+                                <label for="star"></label>
+                                <input type="checkbox" id="star" class="hidden">
+                                <div class="control"></div>
+                            </div>
+                        </td>
+                        <td data-title="Thursday">
+                            <div class="star-box">
+                                <label for="star"></label>
+                                <input type="checkbox" id="star" class="hidden">
+                                <div class="control"></div>
+                            </div>
+                        </td>
+                        <td data-title="Friday">
+                            <div class="star-box">
+                                <label for="star"></label>
+                                <input type="checkbox" id="star" class="hidden">
+                                <div class="control"></div>
+                            </div>
+                        </td>
+                        <td data-title="Saturday">
+                            <div class="star-box">
+                                <label for="star"></label>
+                                <input type="checkbox" id="star" class="hidden">
+                                <div class="control"></div>
+                            </div>
+                        </td>
+                        <td data-title="Sunday">
+                            <div class="star-box">
+                                <label for="star"></label>
+                                <input type="checkbox" id="star" class="hidden">
+                                <div class="control"></div>
+                            </div>
+                        </td>
+                    </tr>                    
+                </template>
+
             </tbody>
         </table>
     </section>

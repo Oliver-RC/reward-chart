@@ -173,20 +173,15 @@ h3 {
 .stars-container p {
     margin-top: 1rem;
     padding: 0.75rem;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .stars-container i {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 /* my reward chart */
-
-.active-task {
-    font-weight: bold;
-    text-decoration: underline;
-    cursor: pointer;
-}
 
 .control::after {
     font-family: "Font Awesome 5 Free";
@@ -270,7 +265,7 @@ table td {
         top: 0;
         bottom: 0;
         width: 50%;
-        content: attr(data-col-title);
+        content: attr(data-title);
         background: #3E6165; 
         color: white; 
         font-weight: bold;

@@ -17,16 +17,7 @@ const newTaskInput = document.querySelector('[data-new-task-input]')
 const addTaskButton = document.querySelector('[data-add-task-button]')
 
 const LOCAL_STORAGE_LIST_KEY = 'task.tasks'
-const LOCAL_STORAGE_SELECTED_LIST_ID_KEY = 'task.selectedTaskId'
 let tasks = JSON.parse(localStorage.getItem(LOCAL_STORAGE_LIST_KEY)) || []
-let selectedTaskId = localStorage.getItem(LOCAL_STORAGE_SELECTED_LIST_ID_KEY)
-
-taskContainer.addEventListener('click', e => {
-    if (e.target.tagName.toLowerCase() === 'td') {
-        selectedTaskId = e.target.dataset.taskId
-        saveAndRender()
-    }
-})
 
 //adds new task when 'enter' key hit
 newTaskForm.addEventListener('submit', e => {
@@ -89,7 +80,6 @@ function render() {
         let cell7 = taskElement.insertCell(6);
         let cell8 = taskElement.insertCell(7);
 
-        taskElement.dataset.taskId = task.id
         taskElement.classList.add("new-task")
         chkbox.type = 'checkbox'
         chkbox.id = 'star'
@@ -102,11 +92,17 @@ function render() {
         cell6.classList.add("star-box")
         cell7.classList.add("star-box")
         cell8.classList.add("star-box")
+        cell1.dataset.title = 'Task'
+        cell2.dataset.title = 'Monday'
+        cell3.dataset.title = 'Tuesday'
+        cell4.dataset.title = 'Wednesday'
+        cell5.dataset.title = 'Thursday'
+        cell6.dataset.title = 'Friday'
+        cell7.dataset.title = 'Saturday'
+        cell8.dataset.title = 'Sunday'
 
         tableData.appendChild(chkbox)
         tableData.appendChild(div)
-
-        if (task.id === selectedTaskId) taskElement.classList.add('active-task')
 
         cell1.innerHTML = task.name
         cell2.innerHTML = tableData.innerHTML
