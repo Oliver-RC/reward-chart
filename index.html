@@ -51,10 +51,10 @@
     <section class="task-stars-container">
         <div class="task-container">
             <h2>My Task</h2>
-            <form action="https://formdump.codeinstitute.net/" method="POST" data-new-task-form>
-                <input type="text" id="task-name" name="task-name" placeholder="Task..." aria-label="task" data-new-task-input>
+            <form action="https://formdump.codeinstitute.net/" method="POST" data-task="form">
+                <input type="text" id="task-name" name="task-name" placeholder="Task..." aria-label="task" data-task="input">
                 <br>
-                <input type="button" id="task-add" value="Add" aria-label="create new task" data-add-task-button>                   
+                <input type="button" id="task-add" value="Add" aria-label="create new task" data-task="button">                   
             </form>
         </div>
 
@@ -85,7 +85,7 @@
                     <th>Sunday</th>
                 </tr>                
             </thead>
-            <tbody id="checkboxes" onchange='update()' data-tasks>
+            <tbody id="checkboxes" onchange='update()' data-title="tasks">
                 <template>
                     <tr class="new-task">
                         <td data-title="Task" class="active-task">Task 1</td>
@@ -140,11 +140,11 @@
                         </td>
                     </tr>                    
                 </template>
-
             </tbody>
         </table>
     </section>
 
+    <!--reset table data button-->
     <section>
         <div>
             <p class="reset" onclick="clearLocal()">End of the week reset</p>                 
