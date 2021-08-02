@@ -41,12 +41,13 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
     4. Consistant colour scheme throughout each page specifically on the header / nav bar, page link buttons and footer.
  ### Colour Scheme
  - Colour scheme of the site designed using: https://coolors.co/
- ![Site Colour Scheme](x)
+ ![Site Colour Scheme](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/my-reward-chart-colour-scheme.png)
  ### Typography
- - The [x](x)
- - The [x](x)  
+ - The [Bree Serif](https://fonts.google.com/specimen/Bree+Serif?query=bree+serif) font is used for the headings throughout the site with Serif as the fallback. A relevant style for charts which is both professional and eye to read.
+ - The [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open+sans) font is used for the content of the site with Sans-Serif as the fallback. Open Sans works well against the headings giving the font clear lines to read, adult and child friendly.
  ### Imagery
- - 
+ - Images were only used on the reward page to provide a visual representation of the rewards available. They give the child a clear understanding of the type of reward. They should also be inspirational enough for the child to be motivated to achieve stars for good behaviour.
+ - Icons feature heavily across the site with the 'star' icon being the hero in both the title and reward chart table. The 'star' features in the tally count and reward page giving the user visual reminders as to what the stars are for. Within the 'rock, paper, scissors' game, hand icons were used providing a consistant look and feel.
 
 ## Wireframe
  - Desktop Wireframe 
