@@ -33,9 +33,14 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
 ## Design
 
  ### Structure
-  - 
+  - The site will be made up of an initial home page, a game page, a reward page and a feedback form page.
+  - Every page will be in a consistant layout aiding simple usability. 
+    1. Navigation bar at the top with page title to the left and page links to the right.
+    2. Core content of the page.
+    3. Social media footer at the bottom.
+    4. Consistant colour scheme throughout each page specifically on the header / nav bar, page link buttons and footer.
  ### Colour Scheme
- - 
+ - Colour scheme of the site designed using: https://coolors.co/
  ![Site Colour Scheme](x)
  ### Typography
  - The [x](x)
