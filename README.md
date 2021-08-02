@@ -1,6 +1,8 @@
 # My Reward Chart
 
-...
+My Reward Chart is an interactive 'reward star chart' website. Primarily to be used by the parent / carer on a weekly basis to track the number of stars their child has earned for good behaviour. In return for earning stars, the child can choose a reward at the end of the week based on the number of stars achieved. Also, within the website is an interactive 'rock, paper, scissors' game for the child to interact with.
+
+The sites simple look and feel, ease of navigation and interactive content will enable both the parent / carer and child to use together and/or independently. A core aim is to bring a sense of inclusion for the child; to lead what tasks they want to and what reward they want to pick, alongside an fun, interactive game.
 
 ![Responsive Mockup](x)
 
@@ -88,7 +90,7 @@ A deployed link to the website can be found [here](x)
   #### CSS - 
    - 
   #### JavaScript - 
-   - 
+   - JS Hint Checker
 
  ### Performance Testing
   - 
@@ -103,6 +105,13 @@ A deployed link to the website can be found [here](x)
 
 ## Deployment
  ### Hosting
+  - The site was deployed to GitHub Pages using the following steps:
+   - Log in to GitHub and locate my repository: Oliver-RC / collection-of-crafts.
+   - Locate the 'Settings' link in the navigation bar an click into.
+   - Find the 'Pages' section within Settings and click into. 
+   - Under 'source', click on 'none' and a dropdown will apear, click on 'main' and save.
+   - The page will refresh (it may take a while to update) and there will be a link stating: 'Your site is published at'.
+   - Click on the link to open the site.
    - 
  ### Cloning
    - 
@@ -122,6 +131,11 @@ A deployed link to the website can be found [here](x)
    - A New Toy Photo by <a href="https://unsplash.com/@robowunderkind?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robo Wunderkind</a> on <a href="https://unsplash.com/s/photos/childrens-toys?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
  ### Additional Resource
+  - [Code Institue sample README file](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md) helped me to further build my own README for Collection of Crafts (MS1) project.
+  - [Code Institue old sample README file](https://github.com/Code-Institute-Solutions/SampleREADME#readme) helped me to further build my own README for Collection of Crafts (MS1) project.
+  - [Mockup design](http://ami.responsivedesign.is/#) used to create my responsive design file.
+  - [W3schools](https://www.w3schools.com/) for various code information and trouble shooting.
+  - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for more Javascript specific syntax and function code information.
   - Web Dev Simplified - Responsive Navbar Tutorial (YouTube)
   - IB-Media - Making a Responsive Table Using HTML & CSS (YouTube)
   - CSS-Tricks - https://css-tricks.com/the-checkbox-hack/
