@@ -4,22 +4,31 @@ My Reward Chart is an interactive 'reward star chart' website. Primarily to be u
 
 The sites simple look and feel, ease of navigation and interactive content will enable both the parent / carer and child to use together and/or independently. A core aim is to bring a sense of inclusion for the child; to lead what tasks they want to and what reward they want to pick, alongside an fun, interactive game.
 
-![Responsive Mockup](x)
+![Responsive Mockup](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/responsive-mock-up.JPG)
 
 ## Showcase
 
-A deployed link to the website can be found [here](x)
+A deployed link to the website can be found [here](https://oliver-rc.github.io/reward-chart/)
 
 ## User Experience (UX)
 
  ### User Stories
 
   #### First Time Visitor Goals
-   1. As a first time visitor 
+   1. As a first time visitor I want to understand what the site is about and who the site is intended for. Starting with the title and core content of the page, these elements should give a clear idea.
+   2. As a first time visitor the home / index page should be the starting point of the site and include the main interaction for the user.
+   3. As a first time visitor the flow of each page should read top to bottom with the interactive content following suit. The home / index page should then allow the user to flow onto the next relevant page.
+   4. As a first time visitor I want the content to be in a consistant and simple structure. Navigation bar at the top, main body of the page and footer at the bottom.
+   5. As a first time visitor the interactive content should be intuitive and not require content heavy text to explain how to use.
   #### Returning Visitor Goals
-   1. As a returning visitor 
+   1. As a returning visitor I want to be able to update the interactive reward table with either a new task or star achieved.
+   2. As a returning visitor I want to see the site and its content in the same state as it was previously left in order to track reward progress throughout the week.
+   3. As a returning visitor I want to be able to interact with the built in 'rock, paper, scissors' game.
+   4. As a returning visitor I want to be able to locate the social media links in order to gain further insight and information but delivered through the different platforms: Youtube, Instagram, Facebook and Twitter.
   #### Frequent User Goals
-   1. As a frequent user 
+   1. As a frequent user once a full week has been completed, I want to be able to reset the page in order to start a new week.
+   2. As a frequent user I want the site to be my main 'reward' system for my child. I want the child to eventually become independant in using the site and be the lead in uploading tasks.
+   3. As a frequent user I want to be able to provide user feedback to the owner of the site.
 
 ## Design
 
