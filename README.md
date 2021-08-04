@@ -54,23 +54,81 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
 
 ## Wireframe
  - Desktop Wireframe 
-   - 
+   - [Home Page](https://github.com/Oliver-RC/reward-chart/blob/main/wireframe/wireframe-desktop/my-star-chart-page-homepage-desktop.png)
+   - [Star Game Page](https://github.com/Oliver-RC/reward-chart/blob/main/wireframe/wireframe-desktop/star-booster-game-page-desktop.png)
+   - [Reward Page](https://github.com/Oliver-RC/reward-chart/blob/main/wireframe/wireframe-desktop/my-reward-page-desktop.png)
+   - [Feedback Page](https://github.com/Oliver-RC/reward-chart/blob/main/wireframe/wireframe-desktop/feedback-page-desktop.png)
  - Tablet Wireframe
-   - 
+   - [Home Page](https://github.com/Oliver-RC/reward-chart/blob/main/wireframe/wireframe-tablet/my-star-chart-page-homepage-tablet.png)
+   - [Star Game Page](https://github.com/Oliver-RC/reward-chart/blob/main/wireframe/wireframe-tablet/star-booster-game-page-tablet.png)
+   - [Reward Page](https://github.com/Oliver-RC/reward-chart/blob/main/wireframe/wireframe-tablet/my-reward-page-tablet.png)
+   - [Feedback Page](https://github.com/Oliver-RC/reward-chart/blob/main/wireframe/wireframe-tablet/feedback-page-tablet.png)
  - Mobile Wireframe
-   - 
+   - [Home Page](https://github.com/Oliver-RC/reward-chart/blob/main/wireframe/wireframe-mobile/my-star-chart-page-homepage-mobile.png)
+   - [Star Game Page](https://github.com/Oliver-RC/reward-chart/blob/main/wireframe/wireframe-mobile/star-booster-game-page-mobile.png)
+   - [Reward Page](https://github.com/Oliver-RC/reward-chart/blob/main/wireframe/wireframe-mobile/my-reward-page-mobile.png)
+   - [Feedback Page](https://github.com/Oliver-RC/reward-chart/blob/main/wireframe/wireframe-mobile/feedback-page-mobile.png)
 
 ## Current Features
 
  ### Navigation Bar
- - 
+ - A responsive navigation bar featured on all four pages with links to the main home page - the star chart, the star boost game page, my reward page and feedback form page, these are positioned to the right of the screen and will be responsive on small screens dropping to a hamburger menu. On the left is the website title that is clickable and takes the user back to the homepage. The navigation bar is identical on each page to provide a consistent look and ease of navigation.
+ - This section allows the user to easily navigate from page to page without having to use the back button or relooping back to the homepage.
 
  ![Nav Bar](x)
 
+ ### My Task Input
+ -  The first interactive part of the site which the parent / carer is to use with their child in order to set the task for the week ahead.
+ - An input field where the user types the title of the task and by either pressing enter or clicking the add button will add the task to the reward table below.
+
+ ![My Task Input](x)
+
+ ### My Reward Chart Stars
+ -  This section of the site will count the numbers of stars achieved for the current week. The user will be able to monitor the progress as the week goes by. It is also a motivation tool for the child to keep up with good behaviour.
+
+ ![My Reward Chart Stars](x)
+
+ ### Reward Chart
+ - The tasks once added from the 'my task' section will remain in the table indefinitely until the 'end of the week' reset button is clicked.
+ - Everytime the child succeeds in the task for that day, the user is able to click on the faded star in the table to bring it to life.
+ - The table is responsive, on smaller screens there is no horizontal scroll, the table reverts to a new style that is mobile friendly.
+
+ ![Reward Chart](x)
+
+ ### Weekly Reset & Following Page Buttons
+ - When a new week is about to start, the user is able to click the reset button and it will clear the data from the reward table above.
+ - Below the reset button there are links to the subsequent pages that follow the order of completing the reward chart. Both a star game and reward page links. 
+ - The background colour of the buttons are also used on their relevant pages in order to provide a visual reminder to the user as to which page they navigated to.
+
+ ![Weekly Reset & Following Page Buttons](x)
+ 
  ### The Footer
- - 
+ - The footer section houses icons of the relevant social media platforms available which allows the user to click on, thus directing them to the relevant social page. The link will open up in a new tab as it gives the user the option to remain on the current page or click onto the social media tab that has just opened.
+ - The footer encourages the user to keep connected via social media. It also gives the user confidence of the business / brand given the multiple social plaforms used.
+ - The footer is responsive and featured at the bottom on all four pages. The footer is identical on each page to provide a consistent look and ease of navigation.
 
  ![Footer](x)
+
+ ### Star Booster Game with Game Score
+ - A game of rock, paper, scissors for the user to play vs the computer. This brings further site interaction and a sense of fun and involvement, rather than just a reward chart.
+ - There is a game score tally counter above the game board. The parent / carer can decided if the stars earned are to be used toward the final reward choice at the end of the week.
+ - The page layout follows the consistent structure delivered across the site with a navigation bar at the top and the footer at the bottom. The colour scheme of the game matches the game button on the home page with the hand icons set in matching nav colours.
+
+ ![Star Booster Game with Game Score](x)
+
+ ### Reward Page
+ - Upon the user and child completing the weekly tasks, they would navigate to the reward page in order to make their selection. Each reward is listed with a visual picture, name of reward and number of stars the reward costs. The user clicks on the 'claim reward' button to make their choice. Upon so an alert box appears advising them of their choice.
+ - The page layout follows the consistent structure delivered across the site with a navigation bar at the top and the footer at the bottom.
+
+ ![Reward Page](x)
+
+ ### Feedback Page
+ - The feedback page will allow the user to send in feedback to the site owners using the form provided. It is important to gain feedback in order to improve and develop the site further. 
+ - The user will be asked to submit their full name, email address and feedback comments.
+ - Below the title of the page is a small sub heading and sentence explaining the reason for the form.
+ - The page layout follows the consistent structure delivered across the site with a navigation bar at the top and the footer at the bottom.
+
+ ![Feedback Page](x)
 
  ### Responsive Site
  - 
