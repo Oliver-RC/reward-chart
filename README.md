@@ -41,6 +41,9 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
     4. Consistant colour scheme throughout each page specifically on the header / nav bar, page link buttons and footer.
  ### Colour Scheme
  - Colour scheme of the site designed using: https://coolors.co/
+ - The header, nav bar and footer make up the leading colours of the site, that being Mantis, a subtle, light off green, with green being a positive colour related to children and learning.
+ - The font colour both in the headings and the body of the site is black as it is clear and consistant. 
+ - Each section of the site has a distinct background colour with a supported border, this is consistant on each page. The same goes for each clickable button alongside hover effects when able to click and generate an action.
  ![Site Colour Scheme](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/my-reward-chart-colour-scheme.png)
  ### Typography
  - The [Bree Serif](https://fonts.google.com/specimen/Bree+Serif?query=bree+serif) font is used for the headings throughout the site with Serif as the fallback. A relevant style for charts which is both professional and eye to read.

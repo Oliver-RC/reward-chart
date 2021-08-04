@@ -161,6 +161,7 @@ h3 {
 #task-add:hover {
     color: #6D213C;
     background: white; 
+    cursor: pointer;
 }
 
 .stars-container {
