@@ -76,52 +76,44 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
  - This section allows the user to easily navigate from page to page without having to use the back button or relooping back to the homepage.
 
  ![Nav Bar](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/nav-bar.JPG)
-
  ### My Task Input
  -  The first interactive part of the site which the parent / carer is to use with their child in order to set the task for the week ahead.
  - An input field where the user types the title of the task and by either pressing enter or clicking the add button will add the task to the reward table below.
 
  ![My Task Input](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/task-input.JPG)
-
  ### My Reward Chart Stars
  -  This section of the site will count the numbers of stars achieved for the current week. The user will be able to monitor the progress as the week goes by. It is also a motivation tool for the child to keep up with good behaviour.
 
  ![My Reward Chart Stars](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/reward-chart-stars.JPG)
-
  ### Reward Chart
  - The tasks once added from the 'my task' section will remain in the table indefinitely until the 'end of the week' reset button is clicked.
  - Everytime the child succeeds in the task for that day, the user is able to click on the faded star in the table to bring it to life.
  - The table is responsive, on smaller screens there is no horizontal scroll, the table reverts to a new style that is mobile friendly.
 
  ![Reward Chart](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/reward-chart.JPG)
-
  ### Weekly Reset & Following Page Buttons
  - When a new week is about to start, the user is able to click the reset button and it will clear the data from the reward table above.
  - Below the reset button there are links to the subsequent pages that follow the order of completing the reward chart. Both a star game and reward page links. 
  - The background colour of the buttons are also used on their relevant pages in order to provide a visual reminder to the user as to which page they navigated to.
 
  ![Weekly Reset & Following Page Buttons](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/reset-page-buttons.JPG)
- 
  ### The Footer
  - The footer section houses icons of the relevant social media platforms available which allows the user to click on, thus directing them to the relevant social page. The link will open up in a new tab as it gives the user the option to remain on the current page or click onto the social media tab that has just opened.
  - The footer encourages the user to keep connected via social media. It also gives the user confidence of the business / brand given the multiple social plaforms used.
  - The footer is responsive and featured at the bottom on all four pages. The footer is identical on each page to provide a consistent look and ease of navigation.
 
  ![Footer](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/footer.JPG)
-
  ### Star Booster Game with Game Score
  - A game of rock, paper, scissors for the user to play vs the computer. This brings further site interaction and a sense of fun and involvement, rather than just a reward chart.
  - There is a game score tally counter above the game board. The parent / carer can decided if the stars earned are to be used toward the final reward choice at the end of the week.
  - The page layout follows the consistent structure delivered across the site with a navigation bar at the top and the footer at the bottom. The colour scheme of the game matches the game button on the home page with the hand icons set in matching nav colours.
 
  ![Star Booster Game with Game Score](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/star-game.JPG)
-
  ### Reward Page
  - Upon the user and child completing the weekly tasks, they would navigate to the reward page in order to make their selection. Each reward is listed with a visual picture, name of reward and number of stars the reward costs. The user clicks on the 'claim reward' button to make their choice. Upon so an alert box appears advising them of their choice.
  - The page layout follows the consistent structure delivered across the site with a navigation bar at the top and the footer at the bottom.
 
  ![Reward Page](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/reward-page.JPG)
-
  ### Feedback Page
  - The feedback page will allow the user to send in feedback to the site owners using the form provided. It is important to gain feedback in order to improve and develop the site further. 
  - The user will be asked to submit their full name, email address and feedback comments.
@@ -129,12 +121,10 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
  - The page layout follows the consistent structure delivered across the site with a navigation bar at the top and the footer at the bottom.
 
  ![Feedback Page](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/feedback-page.JPG)
-
  ### Responsive Site
  - The site is responsive across various screen sizes from desktop, tablet and through to mobile. The user needs to be able to easily read, navigate and interact with the content across various devices.
  - Specific screen break points are: iphone 5 up to ipad (320px - 767px), ipad up to ipad Pro (768px - 1023px), ipad Pro to desktop (1024px +).
  - The use of Flexbox CSS helped create a responsive site.
-
  ### Accessibility
  - All images have an alt attribute taking into account users who are visually impaired. The site has contrasting background colours to text enabling an easy read. Background button colours have been set to match the relevant pages defined colour. Semantic HTML has been used to support machines to understand the layout of the site. All links have hover over effect.
  
@@ -149,7 +139,6 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
   - [HTML](https://en.wikipedia.org/wiki/HTML5)
   - [CSS](https://en.wikipedia.org/wiki/CSS)
   - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-
  ### Frameworks, Libraries & Programs Used
   - Balsamiq: used to create the wireframe during the design process.
   - Gitpod: used for writing the code and using the command line to commit and push to GitHub.
@@ -176,10 +165,8 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
    - the link hovers work as intended and show the correct styling when cursor over.
    - the pages are responsive and look as intended based on the screen size, with mobile, tablet and desktop the main breakpoints.
    - I asked three family members to test out the site too by sending them the url link and provide honest feedback where possible.
-
  ### Google Inspect
   - I coded the site using mobile first design. Constantly using Google Inspect in the devtools to check my layout, make amendments, re-check and therefore delivering an end result that fits the brief and user goals. 
-
  ### Validator Testing
   #### HTML - 
    - All HTML validation was passed through the official W3C validator.
@@ -198,23 +185,25 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
    ![CSS Validator Warnings](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/css-warning-validator.JPG)
   #### JavaScript - 
    - JS Hint Checker was used to highlight any functional errors, none returned. The only warning was regarding semicolons being missing on selected lines. Upon research, this is optional. Nevertheless I felt best practice to use semicolons so corrected both script.js and gsame.js files.
-
  ### Performance Testing
   - Tested the site on Google Developer Tools Lighthouse for desktop and mobile with good results on both. Performance, accessibility and SEO scored top marks. Best practices at 87 due to browser 404 errors, but nothing of concern which impacts the site.
-  ![Lighthouse Results Desktop](x)
-  ![Lighthouse Results Mobile](x)
+  ![Lighthouse Results Desktop](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/accessibility-desktop.JPG)
+  ![Lighthouse Results Mobile](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/accessibility-mobile.JPG)
   - Tested on [Wave](https://wave.webaim.org/) which helped me with accessibility, making sure my layout and design worked well with screen readers.
-  
  ### User Stories Testing
-  - First time user 
-  - Returning user 
-  - Frequent user 
- ### Further Testing
-  - 
- ### Bugs
+  - First time user once on the site is able to understand the reasoning  of the site by the site heading but also the following content of the first page with clear section titles. The page reads from top to bottom with the task section and reward chart being the main content. Page links towards the bottom aid the journey of the user onto the next pages.
+  - Returning user is able to interact with the site as intended with the reward table tasks saved to local storage. The game page restarting when returning and the footer icon links enabling the user to search for further content offsite.
+  - Frequent user is able to reset the saved tasks and start afresh by clicking on the end of week reset button. The site is clearly structured and encompasses all the required elements to treat the site as the main reward system for the parent / carer. 
+  ### Further Testing
+  - Site tested on Google Chrome, Microsoft Edge, Firefox and Safari across the responsive page break points with CSS Flexbox working as intended on each page.
+  - The site tested on the above browsers but also using the browsers on different operating systems, Microsoft and Apple. This was to check for all links, site elements, screen layout and functionality working as intended. 
+  - The site was also tested on mobile, both Samsung Note 10 and iphone 10. Again using Google Chrome on both devices, Safari on Apple and Samsung Internet Browser.
+  - All links on the site tested and directed to the correct page.
+  ### Bugs
   - 
 
 ## Deployment
+
  ### Hosting
   - The site was deployed to GitHub Pages using the following steps:
    - Log in to GitHub and locate my repository: Oliver-RC / collection-of-crafts.
@@ -230,6 +219,7 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
    - 
 
 ## Credits
+
  ### Content
   - 
  ### Media
@@ -240,7 +230,6 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
    - Extra Time on Tablet Photo by <a href="https://unsplash.com/@souzouforest?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">José Reyes</a> on <a href="https://unsplash.com/s/photos/tablet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    - A New Magazine Photo by <a href="https://unsplash.com/@__itsflores?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Omar Flores</a> on <a href="https://unsplash.com/s/photos/kids-book?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    - A New Toy Photo by <a href="https://unsplash.com/@robowunderkind?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robo Wunderkind</a> on <a href="https://unsplash.com/s/photos/childrens-toys?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
  ### Additional Resource
   - [Code Institue sample README file](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md) helped me to further build my own README for Collection of Crafts (MS1) project.
   - [Code Institue old sample README file](https://github.com/Code-Institute-Solutions/SampleREADME#readme) helped me to further build my own README for Collection of Crafts (MS1) project.
@@ -252,7 +241,6 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
   - CSS-Tricks - https://css-tricks.com/the-checkbox-hack/
   - Code with Ania Kubow - 3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)
   - Web Dev Simplified - How to Code A Better To-Do List - Tutorial (YouTube)
-
  ### Acknowledgements
   - Brian Macharia - Mentor support. A thank you for your guidance throughout the project.
   - Code Institue Slack Community - A great resource and helpful community supported me through the challenges encountered.
