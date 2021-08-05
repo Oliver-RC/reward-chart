@@ -295,7 +295,6 @@ table td {
 .claim-reward,
 .reset {
     display: block;
-    color: white;
     text-align: center;
     border: 5px solid #3E6165;
     padding: 1rem;

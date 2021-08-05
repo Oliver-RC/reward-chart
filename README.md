@@ -200,7 +200,10 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
    - JS Hint Checker was used to highlight any functional errors, none returned. The only warning was regarding semicolons being missing on selected lines. Upon research, this is optional. Nevertheless I felt best practice to use semicolons so corrected both script.js and gsame.js files.
 
  ### Performance Testing
-  - 
+  - Tested the site on Google Developer Tools Lighthouse for desktop and mobile with good results on desktop.
+  ![Lighthouse Results Desktop](x)
+  ![Lighthouse Results Mobile](x)
+ 
  ### User Stories Testing
   - First time user 
   - Returning user 
