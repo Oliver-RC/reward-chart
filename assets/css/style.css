@@ -305,6 +305,7 @@ table td {
 
 .reward-button {
     display: block;
+    color: black;
     text-align: center;
     border: 5px solid #3E6165;
     padding: 1rem;
