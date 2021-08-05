@@ -15,6 +15,7 @@ body {
     width: 100%;
     max-width: 2000px;
     margin: auto;
+    min-height: 100%;
 }
 
 h1,
@@ -329,6 +330,10 @@ table td {
     background-color: #ED7E07;
 }
 
+.links {
+    margin: 5rem auto;
+}
+
 @media screen and (min-width: 1024px) {
     .links {
         display: flex;
@@ -560,7 +565,7 @@ footer {
 
 .feedback-form {
     max-width: 80%;
-    margin: 2rem auto;
+    margin: 4rem auto;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 1rem;

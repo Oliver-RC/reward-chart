@@ -200,7 +200,8 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
   - The site was also tested on mobile, both Samsung Note 10 and iphone 10. Again using Google Chrome on both devices, Safari on Apple and Samsung Internet Browser.
   - All links on the site tested and directed to the correct page.
   ### Bugs
-  - 
+  - The reward chart table width when applying margins left and right would cause the table to overflow the page. Corrected by setting the width to 100%.
+  - Issues with the footer not remaining at the bottom of the index and feedback page as the content of the body was not long enough. Resolved by extending the margin on the elements above to push footer to the bottom. Position absolute would cause the footer to sit ontop of the above elements and position fixed would also stick the footer above elements on the page.
 
 ## Deployment
 
@@ -212,11 +213,17 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
    - Under 'source', click on 'none' and a dropdown will apear, click on 'main' and save.
    - The page will refresh (it may take a while to update) and there will be a link stating: 'Your site is published at'.
    - Click on the link to open the site.
-   - 
  ### Cloning
-   - 
+  - To make a local Clone:
+   - Log into GitHub or creat an account and navigate to the gitpod repository [here](https://github.com/Oliver-RC/reward-chart).
+   - Under the repository name, above the list of files, click on a button called 'Clone'.
+   - If cloning with HTTPS, make sure HTTPS is underlined and then click on the clipboard icon to copy. Once clicked the icon will turn to a tick.
+   - Open your local IDE open the terminal.
+   - Change the current working directory to the location where you want the cloned directory to be.
+   - Type git clone, and then paste the URL you copied earlier.
+   - Press enter to create your local clone.
  ### Updates and Push to Hosting
-   - 
+   - Any updates to the code will need to be commited and pushed to the master branch. This will automatically update the hosted site.
 
 ## Credits
 
