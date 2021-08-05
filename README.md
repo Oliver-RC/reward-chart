@@ -228,26 +228,35 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
 ## Credits
 
  ### Content
-  - 
+  - The inspiration for the interactive reward chart was gained from Web Dev Simplified - How to Code A Better To-Do List - Tutorial [YouTube](https://www.youtube.com/watch?v=W7FaYfuwu70&t=517s). I was able to understand Javascript that bit more and learn from the content whilst adapting it to my interactive reward chart.
+  - For the star game, I took ideas from many rock, paper, scissors javascript code, however Code with Ania Kubow - 3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!) [YouTube](https://www.youtube.com/watch?v=RwFeg0cEZvQ) was credited with my key learning.
+  - I wanted my nav bar to be responsive using Javascript therefore used Web Dev Simplified - Responsive Navbar Tutorial [YouTube](https://www.youtube.com/watch?v=At4B7A4GOPg) for further insight on how to action.
+  - The reward chart needed to be responsive on mobile and display content suited to the screen size. I used IB-Media - Making a Responsive Table Using HTML & CSS [YouTube](https://www.youtube.com/watch?v=QjW5TsNquH8) for inspiration and learning.
+  - Within my reward table I wanted clickable star icons using checkboxes, for this I took learning from [CSS-Tricks](https://css-tricks.com/the-checkbox-hack/)
  ### Media
   - The Favicon was created from Favicon.io [here](https://favicon.io/favicon-generator/)
   - Icons included within the content of the size used from Font Awesome [here](https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free)
   - Images used across the site taken from Unsplash [here](https://unsplash.com/). Specfic images used are:
-   - A Sweet Treat Photo by <a href="https://unsplash.com/@anitabagg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Analia Baggiano</a> on <a href="https://unsplash.com/s/photos/sweets?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-   - Extra Time on Tablet Photo by <a href="https://unsplash.com/@souzouforest?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">José Reyes</a> on <a href="https://unsplash.com/s/photos/tablet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-   - A New Magazine Photo by <a href="https://unsplash.com/@__itsflores?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Omar Flores</a> on <a href="https://unsplash.com/s/photos/kids-book?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-   - A New Toy Photo by <a href="https://unsplash.com/@robowunderkind?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robo Wunderkind</a> on <a href="https://unsplash.com/s/photos/childrens-toys?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   - A Sweet Treat Photo by [Analia Baggiano](https://unsplash.com/s/photos/sweets?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash)
+   - Extra Time on Tablet Photo by [José Reyes](https://unsplash.com/s/photos/tablet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash)
+   - A New Magazine Photo by [Omar Flores](https://unsplash.com/s/photos/kids-book?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash)
+   - A New Toy Photo by [Robo Wunderkind](https://unsplash.com/s/photos/childrens-toys?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash)
  ### Additional Resource
   - [Code Institue sample README file](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md) helped me to further build my own README for Collection of Crafts (MS1) project.
   - [Code Institue old sample README file](https://github.com/Code-Institute-Solutions/SampleREADME#readme) helped me to further build my own README for Collection of Crafts (MS1) project.
+  - [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) was referenced for the languages used in this project. 
   - [Mockup design](http://ami.responsivedesign.is/#) used to create my responsive design file.
   - [W3schools](https://www.w3schools.com/) for various code information and trouble shooting.
   - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for more Javascript specific syntax and function code information.
-  - Web Dev Simplified - Responsive Navbar Tutorial (YouTube)
-  - IB-Media - Making a Responsive Table Using HTML & CSS (YouTube)
-  - CSS-Tricks - https://css-tricks.com/the-checkbox-hack/
-  - Code with Ania Kubow - 3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)
-  - Web Dev Simplified - How to Code A Better To-Do List - Tutorial (YouTube)
+  - [Favicon](https://favicon.io/) used to generate the favicon icon of the site.
+  - [Google fonts](https://fonts.google.com/) used to import the site fonts.
+  - [Balsamiq wireframe](https://balsamiq.com/) used to create the wireframe during the design process.
+  - [Font Awesome](https://fontawesome.com/) used for icons in the footer and icons within the content of the site for aesthetic and UX purposes.
+  - [Unsplash](https://unsplash.com/) images taken from unsplash.
+  - [HTML Validator](https://validator.w3.org/) used to test validity of HTML.
+  - [CSS Validator](https://validator.w3.org/) used to test validity of CSS.
+  - [Wave Accessibility](https://wave.webaim.org/) used to test accessibility of the site.
+  - [JS Hint Checker](https://jshint.com/) used to test validity and working functions of Javascript.
  ### Acknowledgements
   - Brian Macharia - Mentor support. A thank you for your guidance throughout the project.
   - Code Institue Slack Community - A great resource and helpful community supported me through the challenges encountered.
