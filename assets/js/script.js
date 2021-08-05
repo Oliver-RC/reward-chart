@@ -83,8 +83,8 @@ function render() {
 
         taskElement.classList.add("new-task");
         chkbox.type = 'checkbox';
-        chkbox.id = 'star';
-        chkbox.className = 'hidden';
+        chkbox.className = 'hidden star';
+        chkbox.ariaLabel = 'star-checkbox'
         div.className = 'control';
         cell2.classList.add("star-box");
         cell3.classList.add("star-box");

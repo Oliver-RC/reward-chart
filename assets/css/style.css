@@ -190,7 +190,7 @@ h3 {
     color: rgba(248, 213, 15, 0.2);
 }
 
-#star:checked ~ .control::after {
+.star:checked ~ .control::after {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f005";
