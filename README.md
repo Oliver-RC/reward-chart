@@ -139,7 +139,9 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
  - All images have an alt attribute taking into account users who are visually impaired. The site has contrasting background colours to text enabling an easy read. Background button colours have been set to match the relevant pages defined colour. Semantic HTML has been used to support machines to understand the layout of the site. All links have hover over effect.
  
 ## Features Left to Implement
- - 
+ - Stars achieved from the reward chart tasks are to be represented on the games page. If the user succeeds in acheiving more stars from playing the game then the reward chart stars and the game stars are to be totalled together.
+ - The totalled stars to be represented on the 'My Reward' page. From this total, once a reward is claimed, the cost of the reward is to be deducted from the total stars. This will bring together the links between the chart page, game page and reward page.
+ - On the reward chart, to include a delete button removing a single task.
 
 ## Technologies Used
 
@@ -153,18 +155,41 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
   - Gitpod: used for writing the code and using the command line to commit and push to GitHub.
   - Git: used for version control through the gitpod terminal to commit to Git and push to GitHub.
   - GitHub: used to store the projects code after being pushed from Git. Used to host repository.
-  - Hover.css: 
-  - Google Fonts: 
-  - Font Awesome: used for icons in the footer and icons within the content of the site for aesthetic and UX purposes.
+  - Hover.css: used for the links in the nav bar to underline, bold and turn background colour a lighter green. Used to reverse the background colour, font colour and bold the text in the buttons. The curser turns to a hand icon when hovered over link / clickable button.
+  - Google Fonts: used to import the 'Bree Serif' font with 'Serif' as the fallback font for the headings and 'Open Sans' font with 'Sans-Serif' as the fallback font for the content of the site.
+  - Font Awesome: used for icons in the header, footer and icons within the content of the site for aesthetic and UX purposes.
   - Favicon.io: used to generate the favicon icon of the site.
 
 ## Testing
- - 
+ - I tested the sites interactive content to make sure the functionality worked as intended. In summary:
+   - the reward input allowed the typed task to be added to the table with either an enter press or click on 'add' button. 
+   - the stars in the chart are clickable to remove the opacity. 
+   - the stars achieved counter totals the number of clicked stars.
+   - the content of the table remains even when the browser is refreshed or the user comes back to the site.
+   - the end of the week reset button removes the chart tables content.
+   - playing the game delivers the expected result and are correct.
+   - the game score counter tallys correctly and the stars earned counter calculates correctly.
+   - the game instructions alert box appears when clicked on.
+   - the 'claim reward' buttons bring up an expected alert when clicked on.
+   - the feedback form submits correctly with the 'required' propoerty used where needed.
+   - all the links work i.e. nav links take the user to the correct page, header logo clicks back through to the home page, footer social media icons open up the site in a new tab.
+   - the link hovers work as intended and show the correct styling when cursor over.
+   - the pages are responsive and look as intended based on the screen size, with mobile, tablet and desktop the main breakpoints.
+   - I asked three family members to test out the site too by sending them the url link and provide honest feedback where possible.
+
  ### Google Inspect
-  - 
+  - I coded the site using mobile first design. Constantly using Google Inspect in the devtools to check my layout, make amendments, re-check and therefore delivering an end result that fits the brief and user goals. 
+
  ### Validator Testing
   #### HTML - 
-   - 
+   - index.html returned with two errors, I had duplicated id="star" more than once for the repeat of the star icons in the table. Corrected to number the star ids element. On line 158, I did not include a space between href and class tags, corrected.
+   ![Home Page Validator Results](x)
+   - game.html had one error on line 108 whereby I did not include a space between href and class tags, corrected.
+   ![Game Page Validator Results](x)
+   - reward.html returned no errors.
+   ![Reward Page Validator Results](x)
+   - feedback.html had two errors on line 60 and 63 whereby I did not include a space between placeholder and required tags, both corrected.
+   ![Feedback Page Validator Results](x)
   #### CSS - 
    - 
   #### JavaScript - 
