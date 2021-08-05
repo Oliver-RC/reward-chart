@@ -182,16 +182,20 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
 
  ### Validator Testing
   #### HTML - 
+   - All HTML validation was passed through the official W3C validator.
    - index.html returned with two errors, I had duplicated id="star" more than once for the repeat of the star icons in the table. Corrected to number the star ids element. On line 158, I did not include a space between href and class tags, corrected.
-   ![Home Page Validator Results](x)
+   ![Home Page Validator Results](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/index-validator.JPG)
    - game.html had one error on line 108 whereby I did not include a space between href and class tags, corrected.
-   ![Game Page Validator Results](x)
+   ![Game Page Validator Results](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/game-validator.JPG)
    - reward.html returned no errors.
-   ![Reward Page Validator Results](x)
+   ![Reward Page Validator Results](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/reward-validator.JPG)
    - feedback.html had two errors on line 60 and 63 whereby I did not include a space between placeholder and required tags, both corrected.
-   ![Feedback Page Validator Results](x)
+   ![Feedback Page Validator Results](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/feedback-validator.JPG)
   #### CSS - 
-   - 
+   - No errors were found when passing through the official (Jigsaw) validator.
+   ![CSS Validator Results](x)
+   - Two warnings were displayed, one due to using external style sheet for Google Fonts, one for an unknown vendor extension which I have created to help with the background colour maintenance of the site.
+   ![CSS Validator Warnings](x)
   #### JavaScript - 
    - JS Hint Checker
 

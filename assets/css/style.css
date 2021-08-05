@@ -2,8 +2,6 @@
 
 :root {
     --background: #82D173;
-    --cell-size: 100px;
-    --mark-size: calc(var(--cell-size) * 0.9);
 }
 
 * {
