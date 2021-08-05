@@ -193,11 +193,11 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
    ![Feedback Page Validator Results](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/feedback-validator.JPG)
   #### CSS - 
    - No errors were found when passing through the official (Jigsaw) validator.
-   ![CSS Validator Results](x)
+   ![CSS Validator Results](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/css-validator.JPG)
    - Two warnings were displayed, one due to using external style sheet for Google Fonts, one for an unknown vendor extension which I have created to help with the background colour maintenance of the site.
-   ![CSS Validator Warnings](x)
+   ![CSS Validator Warnings](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/css-warning-validator.JPG)
   #### JavaScript - 
-   - JS Hint Checker
+   - JS Hint Checker was used to highlight any functional errors, none returned. The only warning was regarding semicolons being missing on selected lines. Upon research, this is optional. Nevertheless I felt best practice to use semicolons so corrected both script.js and gsame.js files.
 
  ### Performance Testing
   - 
