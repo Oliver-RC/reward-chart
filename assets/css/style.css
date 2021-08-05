@@ -291,9 +291,19 @@ table td {
 /* page links */
 
 .booster-button,
-.reward-button,
 .claim-reward,
 .reset {
+    display: block;
+    color: white;
+    text-align: center;
+    border: 5px solid #3E6165;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.reward-button {
     display: block;
     text-align: center;
     border: 5px solid #3E6165;
