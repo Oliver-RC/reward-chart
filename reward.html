@@ -50,13 +50,10 @@
 
     <section>
         <div class="final-stars-container">
-            <h2>Total Reward Stars</h2>
-            <p>
-                Total Stars = <span id="final-stars">0</span>
-            </p>
-            <div>
-                <i class="fas fa-star"></i>
-            </div>
+            <h2>Star Rewards</h2>
+            <i class="fas fa-star"></i>  
+            <p>Well done for good behaviour this week and completing the tasks.</p>  
+            <p>Please now select you reward!</p>
         </div>
     </section>
 
@@ -68,26 +65,27 @@
                 <img src="assets/images/site-images/sweet-treat.jpg" alt="plates of sweets">
                 <p>A Sweet Treat</p>
                 <p>1<i class="fas fa-star"></i></p>
-                <p class="claim-reward">Claim Reward</p>
+                <p class="claim-reward" onclick="claimReward()">Claim Reward</p>
             </div>
             <div class="reward-choice">
                 <img src="assets/images/site-images/tablet.jpg" alt="a gameboy switch tablet">
                 <p>Extra Time on Tablet</p>
                 <p>5<i class="fas fa-star"></i>'s</p>
-                <p class="claim-reward">Claim Reward</p>
+                <p class="claim-reward" onclick="claimReward()">Claim Reward</p>
             </div>
             <div class="reward-choice">
                 <img src="assets/images/site-images/magazine.jpg" alt="a bookcase full of magazines">
                 <p>A New Magazine</p>
                 <p>15<i class="fas fa-star"></i>'s</p>
-                <p class="claim-reward">Claim Reward</p>
+                <p class="claim-reward" onclick="claimReward()">Claim Reward</p>
             </div>
             <div class="reward-choice">
                 <img src="assets/images/site-images/toy.jpg" alt="a toy robot">
                 <p>A New Toy</p>
                 <p>30<i class="fas fa-star"></i>'s</p>
-                <p class="claim-reward">Claim Reward</p>
-            </div>      
+                <p class="claim-reward" onclick="claimReward()">Claim Reward</p>
+            </div>  
+            <p id="claimed"></p>    
         </div>
     </section>
 
@@ -112,7 +110,7 @@
 
     <!--link to javascript-->
 
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/reward.js"></script>
 
 </body>
 </html>

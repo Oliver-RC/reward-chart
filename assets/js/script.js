@@ -41,7 +41,6 @@ addTaskButton.addEventListener('click', e => {
     saveAndRender();
 });
 
-
 //deletes table of task when 'end of the week' button clicked
 function clearLocal() {
     localStorage.clear();

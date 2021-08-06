@@ -310,6 +310,13 @@ table td {
     font-weight: bold;
 }
 
+.reset {
+    background-color: #6d213c;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
 .booster-button {
     background-color: #6610F2;
 }
@@ -457,8 +464,6 @@ footer {
 }
 
 .final-stars-container p {
-    margin-top: 1rem;
-    padding: 0.75rem;
     font-size: 1.2rem;
     font-weight: 800;
 }
@@ -523,11 +528,10 @@ footer {
     background-color: rgb(248, 213, 15);
 }
 
-.reset {
-    background-color: #6d213c;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    cursor: pointer;
+#claimed {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
 }
 
 @media screen and (min-width: 767px) {
