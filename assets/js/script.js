@@ -1,6 +1,6 @@
 /**
- * responsive nav bar toogle action
- */
+* responsive nav bar toogle action
+*/
 let toggleButton = document.getElementsByClassName('toggle-button')[0];
 let navbarLinks = document.getElementsByClassName('navbar-links')[0];
 
@@ -9,8 +9,9 @@ toggleButton.addEventListener('click', () => {
 });
 
 /**
- * create a new task in the reward table
- */
+* create a new task in the reward table
+*/
+// variables
 const taskContainer = document.querySelector('[data-title="tasks"]');
 const newTaskForm = document.querySelector('[data-task="form"]');
 const newTaskInput = document.querySelector('[data-task="input"]');
@@ -124,9 +125,9 @@ function clearElement(element) {
 
 render();
 
- /**
- * Count the number of star icons checked
- */
+/**
+* Count the number of star icons checked
+*/
 function update() {
     document.getElementById('count').innerHTML = 
     document.querySelectorAll('#checkboxes input[type="checkbox"]:checked').length;

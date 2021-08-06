@@ -89,7 +89,6 @@ function starsEarned() {
 }
 
 //instructions alert popup box
-
 function instructions() {
     alert('👊 Rock wins over scissors because rock smashes scissors\n✌ Scissors wins over paper because scissors cut paper\n✋ Paper wins over rock because paper covers rock');
 }

@@ -8,8 +8,9 @@ toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active');
 });
 
-//reward confirm popup box
-
+/**
+* reward confirm popup box
+*/
 function claimReward() {
    let txt;
    if (confirm("Good choice, please confirm your selection by pressing OK!")) {
