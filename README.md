@@ -202,6 +202,7 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
   ### Bugs
   - The reward chart table width when applying margins left and right would cause the table to overflow the page. Corrected by setting the width to 100%.
   - Issues with the footer not remaining at the bottom of the index and feedback page as the content of the body was not long enough. Resolved by extending the margin on the elements above to push footer to the bottom. Position absolute would cause the footer to sit ontop of the above elements and position fixed would also stick the footer above elements on the page.
+  - A bug remains on the nav bar hamburger menu for only the star game page. It does not allow the menu icon once clicked to expand down to show the nav bar page links. 
 
 ## Deployment
 

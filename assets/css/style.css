@@ -277,18 +277,6 @@ table td {
     }
 }
 
-@media screen and (min-width: 1024px) {
-    .task-stars-container {
-        display: flex;
-        flex-direction: row;
-    }
-    .task-container,
-    .stars-container, 
-    .game-score {
-    width: 50%;
-    }
-}
-
 /* page links */
 
 .booster-button,
