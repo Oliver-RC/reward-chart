@@ -186,7 +186,7 @@ A deployed link to the website can be found [here](https://oliver-rc.github.io/r
   #### JavaScript - 
    - JS Hint Checker was used to highlight any functional errors, none returned. The only warning was regarding semicolons being missing on selected lines. Upon research, this is optional. Nevertheless I felt best practice to use semicolons so corrected both script.js and gsame.js files.
  ### Performance Testing
-  - Tested the site on Google Developer Tools Lighthouse for desktop and mobile with good results on both. Performance, accessibility and SEO scored top marks. Best practices at 87 due to browser 404 errors, but nothing of concern which impacts the site.
+  - Tested the site on Google Developer Tools Lighthouse for desktop and mobile with good results on both. Performance, accessibility and SEO scored top marks. Best practices at 87 due to browser 404 errors but nothing of concern which impacts the site useability and performance.
   ![Lighthouse Results Desktop](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/accessibility-desktop.JPG)
   ![Lighthouse Results Mobile](https://github.com/Oliver-RC/reward-chart/blob/main/readme-content/accessibility-mobile.JPG)
   - Tested on [Wave](https://wave.webaim.org/) which helped me with accessibility, making sure my layout and design worked well with screen readers.
